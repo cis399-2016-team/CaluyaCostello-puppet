@@ -1,0 +1,95 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.5  33508  2856 ?        Ss   22:39   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    22:39   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    22:39   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   22:39   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    22:39   0:00 [kworker/u30:0]
+root         7  0.0  0.0      0     0 ?        S    22:39   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/0]
+root         9  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/1]
+root        10  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/2]
+root        11  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/3]
+root        12  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/4]
+root        13  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/5]
+root        14  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/6]
+root        15  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/7]
+root        16  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/8]
+root        17  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/9]
+root        18  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/10]
+root        19  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/11]
+root        20  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/12]
+root        21  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/13]
+root        22  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuos/14]
+root        23  0.0  0.0      0     0 ?        S    22:39   0:00 [rcu_bh]
+root        24  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/0]
+root        25  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/1]
+root        26  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/2]
+root        27  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/3]
+root        28  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/4]
+root        29  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/5]
+root        30  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/6]
+root        31  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/7]
+root        32  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/8]
+root        33  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/9]
+root        34  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/10]
+root        35  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/11]
+root        36  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/12]
+root        37  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/13]
+root        38  0.0  0.0      0     0 ?        S    22:39   0:00 [rcuob/14]
+root        39  0.0  0.0      0     0 ?        S    22:39   0:00 [migration/0]
+root        40  0.0  0.0      0     0 ?        S    22:39   0:00 [watchdog/0]
+root        41  0.0  0.0      0     0 ?        S<   22:39   0:00 [khelper]
+root        42  0.0  0.0      0     0 ?        S    22:39   0:00 [kdevtmpfs]
+root        43  0.0  0.0      0     0 ?        S<   22:39   0:00 [netns]
+root        44  0.0  0.0      0     0 ?        S    22:39   0:00 [xenwatch]
+root        45  0.0  0.0      0     0 ?        S    22:39   0:00 [xenbus]
+root        46  0.0  0.0      0     0 ?        S    22:39   0:00 [kworker/0:1]
+root        47  0.0  0.0      0     0 ?        S<   22:39   0:00 [writeback]
+root        48  0.0  0.0      0     0 ?        S<   22:39   0:00 [kintegrityd]
+root        49  0.0  0.0      0     0 ?        S<   22:39   0:00 [bioset]
+root        50  0.0  0.0      0     0 ?        S<   22:39   0:00 [kworker/u31:0]
+root        51  0.0  0.0      0     0 ?        S<   22:39   0:00 [kblockd]
+root        52  0.0  0.0      0     0 ?        S<   22:39   0:00 [ata_sff]
+root        53  0.0  0.0      0     0 ?        S    22:39   0:00 [khubd]
+root        54  0.0  0.0      0     0 ?        S<   22:39   0:00 [md]
+root        55  0.0  0.0      0     0 ?        S<   22:39   0:00 [devfreq_wq]
+root        57  0.0  0.0      0     0 ?        S    22:39   0:00 [khungtaskd]
+root        58  0.0  0.0      0     0 ?        S    22:39   0:00 [kswapd0]
+root        59  0.0  0.0      0     0 ?        SN   22:39   0:00 [ksmd]
+root        60  0.0  0.0      0     0 ?        S    22:39   0:00 [fsnotify_mark]
+root        61  0.0  0.0      0     0 ?        S    22:39   0:00 [ecryptfs-kthrea]
+root        62  0.0  0.0      0     0 ?        S<   22:39   0:00 [crypto]
+root        74  0.0  0.0      0     0 ?        S<   22:39   0:00 [kthrotld]
+root        75  0.0  0.0      0     0 ?        S    22:39   0:00 [kworker/u30:1]
+root        76  0.0  0.0      0     0 ?        S    22:39   0:00 [scsi_eh_0]
+root        77  0.0  0.0      0     0 ?        S    22:39   0:00 [scsi_eh_1]
+root        98  0.0  0.0      0     0 ?        S<   22:39   0:00 [deferwq]
+root        99  0.0  0.0      0     0 ?        S<   22:39   0:00 [charger_manager]
+root       140  0.0  0.0      0     0 ?        S<   22:40   0:00 [kpsmoused]
+root       158  0.0  0.0      0     0 ?        S    22:40   0:00 [kworker/0:2]
+root       201  0.0  0.0      0     0 ?        S    22:40   0:00 [jbd2/xvda1-8]
+root       202  0.0  0.0      0     0 ?        S<   22:40   0:00 [ext4-rsv-conver]
+root       405  0.0  0.1  19472   648 ?        S    22:40   0:00 upstart-udev-bridge --daemon
+root       410  0.0  0.3  49856  1820 ?        Ss   22:40   0:00 /lib/systemd/systemd-udevd --daemon
+root       540  0.0  0.0  15256   412 ?        S    22:40   0:00 upstart-socket-bridge --daemon
+root       578  0.0  0.5  10220  2896 ?        Ss   22:40   0:00 dhclient -1 -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0
+root       888  0.0  0.1  15272   636 ?        S    22:40   0:00 upstart-file-bridge --daemon
+message+   904  0.0  0.2  39224  1236 ?        Ss   22:40   0:00 dbus-daemon --system --fork
+root       918  0.0  0.3  43448  1784 ?        Ss   22:40   0:00 /lib/systemd/systemd-logind
+syslog     926  0.0  0.2 260072  1400 ?        Ssl  22:40   0:00 rsyslogd
+root      1025  0.0  0.1  14536   960 tty4     Ss+  22:40   0:00 /sbin/getty -8 38400 tty4
+root      1030  0.0  0.1  14536   960 tty5     Ss+  22:40   0:00 /sbin/getty -8 38400 tty5
+root      1039  0.0  0.1  14536   964 tty2     Ss+  22:40   0:00 /sbin/getty -8 38400 tty2
+root      1040  0.0  0.1  14536   964 tty3     Ss+  22:40   0:00 /sbin/getty -8 38400 tty3
+root      1042  0.0  0.1  14536   952 tty6     Ss+  22:40   0:00 /sbin/getty -8 38400 tty6
+root      1074  0.0  0.6  61368  3064 ?        Ss   22:40   0:00 /usr/sbin/sshd -D
+root      1097  0.0  0.1   4364   652 ?        Ss   22:40   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root      1098  0.0  0.1  23652   896 ?        Ss   22:40   0:00 cron
+daemon    1099  0.0  0.0  19136   164 ?        Ss   22:40   0:00 atd
+root      1160  0.0  0.1  14536   960 tty1     Ss+  22:40   0:00 /sbin/getty -8 38400 tty1
+root      1161  0.0  0.1  12784   868 ttyS0    Ss+  22:40   0:00 /sbin/getty -8 38400 ttyS0
+root      1265  0.0  0.0      0     0 ?        S    22:44   0:00 [kauditd]
+root      1363  0.0  0.8 105636  4216 ?        Ss   23:21   0:00 sshd: ubuntu [priv] 
+ubuntu    1416  0.0  0.3 105636  1896 ?        S    23:21   0:00 sshd: ubuntu@pts/0  
+ubuntu    1417  0.0  0.7  21184  3608 pts/0    Ss   23:21   0:00 -bash
+ubuntu    1450  0.0  0.2  17164  1312 pts/0    R+   23:34   0:00 ps aux
