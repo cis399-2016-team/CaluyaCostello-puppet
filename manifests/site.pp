@@ -8,6 +8,7 @@ node 'ip-10-0-4-244' {
 }
 
 node 'ip-10-0-4-164' {
+	include sshd
 }
 
 node 'ip-10-0-4-188' {
