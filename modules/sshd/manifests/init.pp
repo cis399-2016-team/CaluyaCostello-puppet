@@ -9,7 +9,7 @@ class sshd {
         }
 
         ssh_authorized_key { "elijahcaluya_key_pair":
-        user => "ec2-user",
+        user => "ubuntu",
         key => "AAAAB3NzaC1yc2EAAAADAQABAAABAQDkMbAYCfE6FHg4s4HJXlXZmMtWzuqWFUQSVLIs8y/dAu6FVkfbfF4Dts2TrmV9vQmjSARjFtzqTdRnvW9IdcamwMJCbCgMTG/DSdmYvSQgl1S7TBmF+9hiJbK88vAFcZxqbsJ8hZb3EpIjd8uiZHEJyYzlSc3hAc5qiUv0j1OtPFcGtpOuekgRuxoZ0ZCPXEFbk4ToteO6UGLd3D3qHWvDt1svFaoTFSA/s6yO8UM+TnELQkaU6Hpb8zUebmLLDFL2B5ZDpzjS5Lb5lznM9FF/BaFjEyF4IXJUy77Rm+88deWqXhf2JFWCz4l+fx05469uUtMR4l3ZF6eveouU7sHF"
 	}	
         file { "/etc/ssh/sshd_config":
