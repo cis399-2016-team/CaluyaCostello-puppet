@@ -5,9 +5,11 @@ class sshd {
 	case $operatingsystem {
 		'Ubuntu':{
 			$key_user = "ubuntu"
+			$service_name = "ssh"
 			}
 		'Amazon':{
 			$key_user = "ec2-user"
+			$service_name = "sshd"
 			}
 	}
 
@@ -30,7 +32,7 @@ class sshd {
                 group => root,
                 require => Package["openssh-server"],
         }
-        service {"ssh":
+        service {$service_name:
                 enable => true,
                 ensure => running,
                 require => [Package["openssh-server"],
