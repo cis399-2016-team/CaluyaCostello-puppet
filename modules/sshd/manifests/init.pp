@@ -12,7 +12,7 @@ class sshd {
         ssh_authorized_key { "elijahcaluya_key_pair":
         user => "ec2-user",
 	type => "ssh-rsa",
-        key => "AAAAB3NzaC1yc2EAAAADAQABAAABAQDkMbAYCfE6FHg4s4HJXlXZmMtWzuqWFUQSVLIs8y/dAu6FVkfbfF4Dts2TrmV9vQmjSARjFtzqTdRnvW9IdcamwMJCbCgMTG/DSdmYvSQgl1S7TBmF+9hiJbK88vAFcZxqbsJ8hZb3EpIjd8uiZHEJyYzlSc3hAc5qiUv0j1OtPFcGtpOuekgRuxoZ0ZCPXEFbk4ToteO6UGLd3D3qHWvDt1svFaoTFSA/s6yO8UM+TnELQkaU6Hpb8zUebmLLDFL2B5ZDpzjS5Lb5lznM9FF/BaFjEyF4IXJUy77Rm+88deWqXhf2JFWCz4l+fx05469uUtMR4l3ZF6eveouU7sHF"
+        key => "AAAAB3NzaC1yc2EAAAADAQABAAABAQCFr3mfY4/QWOsi2DowDDt9KoafoUFN2rdwEEK0Phq/jbhy8l397gIPxf4KWneIRydwX8hbTuLrk/9vbqOr4nL9joFGPql4h50+cM2awr0GFW17FqikYkPJSJ4VczNUzJIw8J9kTQEGZW31Ig0eKGCm1L1G0ARha+r3Zitk3Ed1W1RBT1wVfwokJVq3jzHTB8635tC1BQN0fGngKM21y5r4zSYio0+i/MbF+ObUbxrZvKwrejICEaj2FEZh6p/6ox1Oq+XiljT0qj6zt7l1HKT1O3P+xXxUYDms/fy2FCF/GNLmkep518PtEWGcAWkfJZQCc1ueECfY6KfMOre0r8jz"
 	}	
         file { "/etc/ssh/sshd_config":
                 source => ["puppet:///modules/sshd/$hostname/sshd_config",
