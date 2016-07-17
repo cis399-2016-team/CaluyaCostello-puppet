@@ -12,6 +12,7 @@ node 'ip-10-0-4-164' {
 	include sshd
 }
 
-node 'ip-10-0-4-188' {
+node 'ip-10-0-4-5' {
+	include sshd
 }
 
