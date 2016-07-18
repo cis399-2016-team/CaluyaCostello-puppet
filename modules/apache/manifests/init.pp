@@ -20,7 +20,7 @@ class apache {
 		ensure => running,
 		require => [Package["apache2"],
 				File["/etc/apache2/apache2.conf"],
-				File['var/www/html/foo.html']],
+				File['/var/www/html/foo.html']],
 		subscribe => [File["/etc/apache2/apache2.conf"],]
 	}
 }
