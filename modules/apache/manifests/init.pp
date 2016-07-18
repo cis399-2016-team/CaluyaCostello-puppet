@@ -15,6 +15,12 @@ class apache {
 		group => root,
 		require => Package['apache2'],
 		}
+	file {"/var/www/html":
+	     	ensure  => directory,
+	        recurse => true,
+		purge   => true,
+		source  => "puppet:///modules/apache2/web",
+		 }
 	service { "apache2":
 		enable => true,
 		ensure => running,
