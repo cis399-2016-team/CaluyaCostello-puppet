@@ -10,9 +10,11 @@ node 'ip-10-0-4-244' {
 
 node 'ip-10-0-4-164' {
 	include sshd
+	include apache
 }
 
 node 'ip-10-0-4-5' {
 	include sshd
+	include apache
 }
 
