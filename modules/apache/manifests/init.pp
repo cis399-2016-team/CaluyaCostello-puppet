@@ -6,12 +6,12 @@ class apache {
 		mode => 444,
 		owner => root,
 		group => root,
-		require => Package["apache2"],
+		require => Package["apache2"]
 	}
 	service { "apache2":
 		enable => true,
 		ensure => running,
 		require => [Package["apache2"],File["/etc/apache2/apache2.conf"],],
-		subscrube => [File["/etc/apache2/apache2.conf"],],
+		subscribe => [File["/etc/apache2/apache2.conf"],]
 	}
 }
