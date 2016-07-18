@@ -9,7 +9,7 @@ class apache {
 		require => Package["apache2"]
 	}
 	file { '/var/www/html/foo.html':
-		source => 'pupper:///modules/apache/foo.html',
+		source => 'puppet:///modules/apache/foo.html',
 		mode => 644,
 		owner => root,
 		group => root,
