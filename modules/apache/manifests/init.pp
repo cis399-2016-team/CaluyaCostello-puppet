@@ -19,7 +19,7 @@ class apache {
 	     	ensure  => directory,
 	        recurse => true,
 		purge   => true,
-		source  => "puppet:///modules/apache2/web",
+		source  => "puppet:///modules/apache",
 		 }
 	service { "apache2":
 		enable => true,
