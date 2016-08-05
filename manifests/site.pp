@@ -12,13 +12,13 @@ node 'ip-10-0-4-164' {
 	include sshd
 	include apache
 	include user
-	include chats
+	include ejabberd
 }
 
 node 'ip-10-0-4-5' {
 	include sshd
 	include apache
 	include users
-	include chat
+	include ejabberd
 }
 
