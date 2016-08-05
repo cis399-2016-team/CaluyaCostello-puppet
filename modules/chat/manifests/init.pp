@@ -6,7 +6,7 @@ class chat {
 
 	file {
 		"/etc/chat/chat.cfg":
-			source => ["puppet:///modules/chat/chat.cfg",],
+			source => ["puppet:///modules/chat/$hostname/chat.cfg",],
 			mode => 444,
 			owner => root,
 			group => root,
