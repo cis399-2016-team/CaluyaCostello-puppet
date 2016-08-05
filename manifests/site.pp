@@ -11,7 +11,7 @@ node 'ip-10-0-4-244' {
 node 'ip-10-0-4-164' {
 	include sshd
 	include apache
-	include user
+	include users
 	include ejabberd
 }
 
