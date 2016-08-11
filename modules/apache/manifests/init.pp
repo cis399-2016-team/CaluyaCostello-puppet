@@ -22,6 +22,13 @@ class apache {
 		group => root,
 		require => Package['apache2'],
 		}
+	file { '/var/www/html/coccinellahelp.html':
+		source => 'puppet:///modules/apache/coccinella.html',
+		mode => 644,
+		owner => root,
+		group => root,
+		require => Package['apache2'],
+		}
 	file { '/var/www/html/foo.html':
 		source => 'puppet:///modules/apache/foo.html',
 		mode => 644,
