@@ -23,7 +23,7 @@ class apache {
 		require => Package['apache2'],
 		}
 	file { '/var/www/html/coccinellahelp.html':
-		source => 'puppet:///modules/apache/coccinella.html',
+		source => 'puppet:///modules/apache/coccinellahelp.html',
 		mode => 644,
 		owner => root,
 		group => root,
