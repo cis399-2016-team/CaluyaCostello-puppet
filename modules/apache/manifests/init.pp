@@ -16,7 +16,7 @@ class apache {
 		require => Package['apache2'],
 		}
 	file { '/var/www/html/pidginhelp.html':
-		source => puppet:///modules/apache/pidginhelp.html',
+		source => 'puppet:///modules/apache/pidginhelp.html',
 		mode => 644,
 		owner => root,
 		group => root,
